@@ -1,0 +1,58 @@
+    1  git remote add origin git@github.com:josepaulo0/meu-portfolio.git
+    2  git status
+    3  clear
+    4  git config user.name
+    5  clear
+    6  git config --global user.name 'José Paulo Manuel'
+    7  git config --global user.email 'josepaulomanuel0@gmail.com'
+    8  git config user.name
+    9  clear
+   10  git status
+   11  git init
+   12  git add .
+   13  git commit -m 'meu portfolio'
+   14  git remote add origin git@github.com:josepaulo0/meu-portfolio.git
+   15  git push -u origin master
+   16  git remote add origin https://github.com/josepaulo0/meu-portfolio.git
+   17  git push -u origin master
+   18  ssh: connect to host github.com port 22: Connection timed out
+   19  fatal: Could not read from remote repository.
+   20  Please make sure you have the correct access rights
+   21  and the repository exists.
+   22  clear
+   23  git status
+   24  git add .
+   25  git status
+   26  git init
+   27  git status
+   28  git status
+   29  git add Meu projeto TOTI
+   30  mkdir Curso_Git
+   31  cd Curso_Git
+   32  git init
+   33  echo '#portfolio Jp' > readme.md
+   34  git status
+   35  git commit -m 'commit inicial'
+   36  git add readme.md
+   37  git add 'readme.md'
+   38  git status
+   39  git commit -m 'commit inicial'
+   40  git status
+   41  echo '##portfolio' >> readme.md
+   42  git status
+   43  echo 'Jose paulo' > projeto.txt
+   44  git status
+   45  git add .
+   46  git status
+   47  git restore --staged projeto.txt
+   48  git status
+   49  git add projeto.txt
+   50  git status
+   51  git restore --staged .
+   52  git status
+   53  git commit -am 'alteração no readme'
+   54  git status
+   55  git add projeto.txt
+   56  git status
+   57  git commit -m 'adicionado projeto.txt'
+   58  history >portfolio_Jp.txt
